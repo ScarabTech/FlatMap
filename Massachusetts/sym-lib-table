@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "touchswitch")(type "KiCad")(uri "${KIPRJMOD}/touchswitch.kicad_sym")(options "")(descr ""))
+)
