@@ -1,0 +1,6 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"DV,CI,RW,JT,YM,SQ";"Solderable Stopgap Throughhole";6;"SW_Push_Open_Dual_x2";;;
+2;"RW,YM,CI,JT,DV,SQ";"LED_0201_0603Metric";6;"LED";;;
+3;"SW1";"Resistive Slide-Touch Button";1;"Resistive Slide-Touch Button";;;
+4;"REF**";"California Outline";1;"California Outline";;;
+5;"SW1";"Resistive Slide-Touch Button";1;"SW_Push_Open_Dual_x2";;;
