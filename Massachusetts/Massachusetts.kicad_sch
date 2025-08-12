@@ -495,35 +495,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Touch_Switch_1"
+		(symbol "TL3315NF160Q:TL3315NF160Q"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.572 0)
+			(property "Reference" "S"
+				(at -7.62 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "TL3315NF160Q"
+				(at -7.62 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TL3315NF160Q:SW_TL3315NF160Q"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Footprint" "touchswitch:Touch_Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -545,122 +548,185 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "touch switch"
+			(property "PARTREV" "B"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Touch_Switch_1_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 1.27 0)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
 			)
-			(symbol "Touch_Switch_1_1_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL3315NF160Q_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.5875) (xy 2.54 1.5875)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.5875) (xy 0 3.4925)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "A"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "B"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1033,6 +1099,12 @@
 		(uuid "3e19ce6c-6244-41f1-93d4-15e5b1cdd1f9")
 	)
 	(junction
+		(at 115.57 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6641cac7-68b4-4849-b352-7d79d808f10b")
+	)
+	(junction
 		(at 99.06 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1055,12 +1127,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3237c28-66ae-4926-b47d-2c7c8c4ca9c1")
-	)
-	(junction
-		(at 115.57 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b95900ae-b31f-4c0a-ad40-94ede708b0ca")
 	)
 	(junction
 		(at 127 88.9)
@@ -1087,16 +1153,6 @@
 			(type default)
 		)
 		(uuid "027dd11e-82fd-49bb-ae9a-5945bfc8bcc4")
-	)
-	(wire
-		(pts
-			(xy 115.57 127) (xy 115.57 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d599e3-bc02-4488-9ae4-f9cafc0371bb")
 	)
 	(wire
 		(pts
@@ -1147,16 +1203,6 @@
 			(type default)
 		)
 		(uuid "16e07e65-463c-44da-8585-70a4276933fe")
-	)
-	(wire
-		(pts
-			(xy 170.18 127) (xy 144.78 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e10e195-b0eb-41d6-a6a4-dc081ac2d16a")
 	)
 	(wire
 		(pts
@@ -1240,6 +1286,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 129.54) (xy 115.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873e8a8d-cb02-44fb-9350-9dda46295399")
+	)
+	(wire
+		(pts
 			(xy 149.86 101.6) (xy 157.48 101.6)
 		)
 		(stroke
@@ -1250,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 127) (xy 134.62 127)
+			(xy 115.57 127) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 170.18 127)
+			(xy 176.53 111.76) (xy 176.53 127)
 		)
 		(stroke
 			(width 0)
@@ -1350,6 +1406,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 127) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec907d1-f92c-43ee-9c0d-5fb74255e92e")
+	)
+	(wire
+		(pts
 			(xy 99.06 127) (xy 115.57 127)
 		)
 		(stroke
@@ -1377,6 +1443,16 @@
 			(type default)
 		)
 		(uuid "e761fc8d-a546-4f38-a8e1-10c340b1f1fb")
+	)
+	(wire
+		(pts
+			(xy 176.53 111.76) (xy 170.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae1d842-b9ee-4b5a-b878-cc6f624e19df")
 	)
 	(wire
 		(pts
@@ -1437,75 +1513,6 @@
 			(type default)
 		)
 		(uuid "fd9025f0-caf5-4859-aa5e-da8423fbfb1b")
-	)
-	(symbol
-		(lib_name "Touch_Switch_1")
-		(lib_id "touchswitch:Touch_Switch")
-		(at 139.7 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a5551c6-dfc7-437f-8928-60ffa846939f")
-		(property "Reference" "SW2"
-			(at 139.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 139.7 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "touchswitch:Touch_Switch"
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6ec48ad-2402-49bc-bbe5-792928d74994")
-		)
-		(pin "2"
-			(uuid "121b32b5-3617-46a2-8217-133fa5f61501")
-		)
-		(instances
-			(project ""
-				(path "/ffc31004-9a37-4564-807a-8d2e1bc24eb6"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -2563,6 +2570,121 @@
 			(project ""
 				(path "/ffc31004-9a37-4564-807a-8d2e1bc24eb6"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3315NF160Q:TL3315NF160Q")
+		(at 139.7 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa96425c-30f0-406c-8be9-8c9b9434393c")
+		(property "Reference" "S1"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL3315NF160Q"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL3315NF160Q:SW_TL3315NF160Q"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fa7a3be-76a6-40e0-b867-9b5cd94eb8a7")
+		)
+		(pin "4"
+			(uuid "92a462cb-776a-489a-a730-5c515bd19967")
+		)
+		(pin "2"
+			(uuid "7a838097-f096-4a28-b23b-246b990c00c6")
+		)
+		(pin "3"
+			(uuid "440eccf7-927a-4a1c-8649-02e3df476b1f")
+		)
+		(instances
+			(project ""
+				(path "/ffc31004-9a37-4564-807a-8d2e1bc24eb6"
+					(reference "S1")
 					(unit 1)
 				)
 			)

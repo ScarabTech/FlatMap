@@ -1,0 +1,5 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"R5,R4,R2,R1,R3";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";5;"R";;;
+2;"S1";"SW_TL3315NF160Q";1;"TL3315NF160Q";;;
+3;"D4,D1,D5,D2,D3";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";5;"LED";;;
+4;"BT1";"BatteryHolder_Keystone_3034_1x20mm";1;"Battery_Cell";;;
